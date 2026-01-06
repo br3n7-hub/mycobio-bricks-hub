@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Node / build (if ever added)
+node_modules/
+dist/
+
+# OS/editor junk
+Thumbs.db
+*.swp
+

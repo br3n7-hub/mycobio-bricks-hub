@@ -31,3 +31,30 @@ add_filter( 'acf/settings/load_json', function( $paths ) {
     $paths[] = get_stylesheet_directory() . '/acf-json';
     return $paths;
 } );
+
+/**
+ * 3. FIX FRAMES / BRICKS ALLOWED TAGS (Bricks 1.10.3+)
+ */
+add_filter( 'bricks/allowed_html_tags', function( $allowed_html_tags ) {
+
+    // Tags commonly needed by Woo/Frames templates
+    $additional_tags = [
+        'form',
+        'input',
+        'select',
+        'option',
+        'textarea',
+        'button',
+        'label',
+    ];
+
+    // Add any missing tags without duplicating
+    foreach ( $additional_tags as $tag ) {
+        if ( ! in_array( $tag, $allowed_html_tags, true ) ) {
+            $allowed_html_tags[] = $tag;
+        }
+    }
+
+    return $allowed_html_tags;
+} );
+

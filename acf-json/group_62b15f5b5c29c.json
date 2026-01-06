@@ -1,0 +1,310 @@
+{
+    "key": "group_62b15f5b5c29c",
+    "title": "Reviews",
+    "fields": [
+        {
+            "key": "field_62b15ff3a7a3a",
+            "label": "Customer name",
+            "name": "reviews_customer_name",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "allow_in_bindings": 1,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_62b1604f475db",
+            "label": "Review Copy",
+            "name": "review_review_copy",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "allow_in_bindings": 1,
+            "rows": "",
+            "placeholder": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_6956f45a6dfd7",
+            "label": "Review Highlight",
+            "name": "review_highlight",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "allow_in_bindings": 0,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_6956f92f992e9",
+            "label": "Reviews - display On",
+            "name": "reviews_display_on",
+            "aria-label": "",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Front Page": "Front Page",
+                "Product Page": "Product Page",
+                "Hub Page": "Hub Page"
+            },
+            "default_value": [],
+            "return_format": "value",
+            "allow_custom": 0,
+            "allow_in_bindings": 0,
+            "layout": "vertical",
+            "toggle": 0,
+            "save_custom": 0,
+            "custom_choice_button_text": "Add new choice"
+        },
+        {
+            "key": "field_62b160a763347",
+            "label": "Customer Rating",
+            "name": "review_customer_rating",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 5,
+            "min": 1,
+            "max": 5,
+            "allow_in_bindings": 1,
+            "placeholder": "",
+            "step": ".5",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_62b16161b65cb",
+            "label": "Customer headshot",
+            "name": "review_customer_headshot",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "allow_in_bindings": 1,
+            "preview_size": "thumbnail"
+        },
+        {
+            "key": "field_62b162109cd01",
+            "label": "Review Source",
+            "name": "review_source",
+            "aria-label": "",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Facebook": "Facebook",
+                "Google": "Google",
+                "emailed": "emailed",
+                "Trust Index": "Trust Index",
+                "Other": "Other"
+            },
+            "default_value": [],
+            "return_format": "value",
+            "allow_custom": 0,
+            "allow_in_bindings": 0,
+            "layout": "vertical",
+            "toggle": 0,
+            "save_custom": 0,
+            "custom_choice_button_text": "Add new choice"
+        },
+        {
+            "key": "field_62b176e0025b7",
+            "label": "review date",
+            "name": "review_date",
+            "aria-label": "",
+            "type": "date_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "F, Y",
+            "return_format": "F, Y",
+            "first_day": 1,
+            "default_to_current_date": 0,
+            "allow_in_bindings": 1
+        },
+        {
+            "key": "field_62b3c6d01c24e",
+            "label": "Review Product Type",
+            "name": "review_product_type",
+            "aria-label": "",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Any": "Any",
+                "Gift": "Gift",
+                "Fresh": "Fresh",
+                "Grow kit": "Grow kit",
+                "Pink Grow Kit": "Pink Grow Kit",
+                "Grey Grow Kit": "Grey Grow Kit",
+                "DIY": "DIY",
+                "Mushroom Coffee": "Mushroom Coffee",
+                "Kimchi": "Kimchi",
+                "Pickle": "Pickle",
+                "Quince": "Quince",
+                "Yacon": "Yacon",
+                "Risotto": "Risotto",
+                "Black Garlic": "Black Garlic",
+                "Lions Mane": "Lions Mane",
+                "Chaga": "Chaga",
+                "Cordyceps": "Cordyceps",
+                "Reishi": "Reishi",
+                "Turkey Tail": "Turkey Tail",
+                "Service": "Service",
+                "Fathers Day": "Fathers Day",
+                "Mothers Day": "Mothers Day",
+                "Birthday": "Birthday",
+                "Christmas": "Christmas",
+                "Tours": "Tours"
+            },
+            "default_value": [
+                "Any"
+            ],
+            "return_format": "value",
+            "allow_custom": 0,
+            "allow_in_bindings": 1,
+            "layout": "vertical",
+            "toggle": 0,
+            "save_custom": 0,
+            "custom_choice_button_text": "Add new choice"
+        },
+        {
+            "key": "field_62b3ca6f64540",
+            "label": "Review Link",
+            "name": "review_link",
+            "aria-label": "",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        },
+        {
+            "key": "field_6956fc7640454",
+            "label": "Review Icon",
+            "name": "review_icon",
+            "aria-label": "",
+            "type": "icon_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "tabs": [
+                "dashicons",
+                "media_library"
+            ],
+            "return_format": "string",
+            "allow_in_bindings": 0,
+            "library": "all",
+            "default_value": {
+                "type": null,
+                "value": null
+            }
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "review"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "display_title": "",
+    "modified": 1767349644
+}
